@@ -3,7 +3,7 @@ c = canvas()
 
 
 windowSize(500, 650)
-brushColor('yellow')
+brushColor(200, 150, 70)
 x1 = 0; y1 = 50
 x2 = 500; y2 = 350
 N = 15
@@ -13,7 +13,7 @@ x = x1 + h
 for i in range(N):
   line(x, y1, x, y2)
   x += h
-brushColor('green')
+brushColor(70, 150, 20)
 x1 = 0; y1 = 350
 x2 = 600; y2 = 600
 N = 15
@@ -22,25 +22,25 @@ brushColor('blue')
 x1 = 0; y1 = 0
 x2 = 600; y2 = 50
 N = 15
-brushColor('brown')
-c.create_oval(43, 567,80,581, fill='brown')
-c.create_oval(100, 583,130,600, fill='brown')
-c.create_oval(48, 502,85,570, fill='brown')
-c.create_oval(108, 524,142,591, fill='brown')
-c.create_oval(191, 556,214,569, fill='brown')
-c.create_oval(152, 540,174,550, fill='brown')
-c.create_oval(164, 500,176,540, fill='brown')
-c.create_oval(209, 518,221,558, fill='brown')
+brushColor('sienna')
+c.create_oval(43, 567,80,581, fill='sienna')
+c.create_oval(100, 583,130,600, fill='sienna')
+c.create_oval(48, 502,85,570, fill='sienna')
+c.create_oval(108, 524,142,591, fill='sienna')
+c.create_oval(191, 556,214,569, fill='sienna')
+c.create_oval(152, 540,174,550, fill='sienna')
+c.create_oval(164, 500,176,540, fill='sienna')
+c.create_oval(209, 518,221,558, fill='sienna')
 circle(197,509,18)
 circle(158,488,18)
 
-c.create_oval(136, 467,206,515, fill='brown')
-c.create_oval(64, 473,176,536, fill='brown')
+c.create_oval(136, 467,206,515, fill='sienna')
+c.create_oval(64, 473,176,536, fill='sienna')
 rectangle ( 57, 456, 123, 524)
-c.create_oval(46, 455,64,479, fill='brown')
-c.create_oval(113, 455,130,479, fill='brown')
+c.create_oval(46, 455,64,479, fill='sienna')
+c.create_oval(113, 455,130,479, fill='sienna')
 
-brushColor('brown')
+brushColor(150, 70, 0)
 polygon([(316,391), (320,481), (407,521), (403,412), (316,391)])
 polygon([(316,391), (403,412), (361,332)])
 polygon([(407,521), (403,412),  (427,384),(431,465), (407,521)])
